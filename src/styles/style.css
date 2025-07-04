@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #111A57;
+  color: #000;
+}
+
+/* Fundo geral azul escuro */
+header {
+  background-color: #111a57;
+  padding: 40px 0; /* espaço azul acima e abaixo da faixa */
+  position: relative;
+}
+
+
+/* Faixa clara horizontal */
+.header-container {
+  background-color: #c67c62;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  position: absolute;
+  top: -60px; /* transborda para cima */
+  height: 120px;
+  border-radius: 45%;
+  z-index: 2;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav li a.ativo {
+  font-weight: 700;
+}
+
+section {
+  background-color: #eaeaea;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.quem-somos .conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.resumo, .imagem-grupo {
+  background-color: pink;
+  width: 45%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resumo a {
+  color: blue;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contact form {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact .duplo {
+  display: flex;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+footer {
+  background-color: #ddd; /* fundo cinza claro */
+  padding: 20px 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.nome-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza horizontalmente */
+  justify-content: center;
+  line-height: 1.3;
+}
+
+.nome-grupo span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+}
+
+
+.footer-direita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-direita .email {
+  font-size: 0.9rem;
+}
+
+.icones {
+  display: flex;
+  gap: 10px;
+}
+
+.icones img {
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}
