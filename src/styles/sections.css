@@ -1,0 +1,26 @@
+section {
+  background-color: #eaeaea;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.quem-somos .conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.resumo, .imagem-grupo {
+  background-color: pink;
+  width: 45%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resumo a {
+  color: blue;
+  display: inline-block;
+  margin-top: 10px;
+}

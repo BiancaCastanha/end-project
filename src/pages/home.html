@@ -5,29 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pequena e Grande Família de Nossa Senhora</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="../../include.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="/images/NSa-Rosa-Mistica.jpeg" alt="Imagem Nossa Senhora" />
-            </div>
-            <div class="titulo">
-                <h4>Pequena e Grande</h4>
-                <h4>Família de Nossa Senhora</h4>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="/src/pages/home.html" class="ativo">Início</a></li>
-                    <li><a href="/src/pages/about.html">Sobre Nós</a></li>
-                    <li><a href="/src/pages/galery.html">Galeria</a></li>
-                    <li><a href="/src/pages/news.html">Notícias</a></li>
-                    <li><a href="/src/pages/donations.html">Doações</a></li>
-                    <li><a href="#contact">Fale Conosco</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <header data-include="/components/header.html"></header>
     <main>
         <section class="quem-somos">
             <h2>Quem Somos?</h2>
@@ -53,27 +34,6 @@
             </form>
         </section>
     </main>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-esquerda">
-                <div class="nome-grupo">
-                    <span>Pequena e Grande</span>
-                    <span>Família de Nossa Senhora</span>
-                </div>
-
-            </div>
-            <div class="footer-direita">
-                <p class="email">email@exemplo.com</p>
-                <div class="icones">
-                    <a href="#"><img src="/icons/Facebook-color.png" alt="Facebook" /></a>
-                    <a href="#"><img src="/icons/Facebook-bw.png" alt="Facebook BW" /></a>
-                    <a href="#"><img src="/icons/Whatsapp-color.png" alt="WhatsApp" /></a>
-                    <a href="#"><img src="/icons/Whatsapp-bw.png" alt="WhatsApp BW" /></a>
-                    <a href="#"><img src="/icons/Youtube-color.png" alt="YouTube" /></a>
-                    <a href="#"><img src="/icons/Youtube-bw.png" alt="YouTube BW" /></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer data-include="/components/footer.html"></footer>
 </body>
 </html>

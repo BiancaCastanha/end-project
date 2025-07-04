@@ -1,0 +1,49 @@
+footer {
+  background-color: #ddd;
+  padding: 20px 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.nome-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.3;
+}
+
+.nome-grupo span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.footer-direita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-direita .email {
+  font-size: 0.9rem;
+}
+
+.icones {
+  display: flex;
+  gap: 10px;
+}
+
+.icones img {
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}

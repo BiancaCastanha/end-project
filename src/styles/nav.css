@@ -1,0 +1,21 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav li a.ativo {
+  font-weight: 700;
+  text-decoration: underline;
+}

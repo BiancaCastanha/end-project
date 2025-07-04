@@ -1,0 +1,26 @@
+.contact form {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact .duplo {
+  display: flex;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
