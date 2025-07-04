@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pequena e Grande Família de Nossa Senhora</title>
+  <link rel="stylesheet" href="src/styles/style.css" />
+  <script src="src/include.js" defer></script>
+</head>
+<body>
+  <header data-include="src/components/header.html"></header>
+
+  <main>
+    <section class="quem-somos">
+      <h2>Quem Somos?</h2>
+      <div class="conteudo">
+        <div class="resumo">
+          <p>Breve resumo sobre o grupo ...</p>
+          <a href="#">Saiba mais</a>
+        </div>
+        <div class="imagem-grupo">
+          <p>IMAGEM<br>GRUPO</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Fale Conosco</h2>
+      <form>
+        <div class="duplo">
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Sobrenome" />
+        </div>
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Mensagem"></textarea>
+      </form>
+    </section>
+  </main>
+
+  <footer data-include="src/components/footer.html"></footer>
+</body>
+</html>
